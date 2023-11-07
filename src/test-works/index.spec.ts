@@ -1,5 +1,6 @@
 import {describe, vi, it, expect} from 'vitest';
 import {connect} from './index';
+
 import {Pool} from 'pg';
 
 vi.mock('pg', async () => {

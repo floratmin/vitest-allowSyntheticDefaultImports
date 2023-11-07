@@ -2,7 +2,7 @@ import {describe, vi, it, expect} from 'vitest';
 import {connect} from './index';
 import {Pool} from 'pg';
 
-// also does not work:
+// does not work:
 // import pg from 'pg';
 // const {Pool} = pg;
 
